@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define LINE printf("l                                        l");
+#define LINE printf("l                                        l")
 
 void title(void);
 void content(void);
