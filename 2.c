@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define LINE printf("l                                        l");
 
 void title(void);
 void content(void);
@@ -227,18 +228,18 @@ void map_chapter2_p(void)                                //2과퀴즈  배경화
         gotoxy(i+2,y+4);printf("-");
         gotoxy(i+2,y+17);printf("-");
     }
-    gotoxy(x+2, y+5); printf("l                                       l");
-    gotoxy(x+2, y+6); printf("l                                       l");
-    gotoxy(x+2, y+7); printf("l                                       l");
-    gotoxy(x+2, y+8); printf("l                                       l");
-    gotoxy(x+2, y+9); printf("l                                       l");
-    gotoxy(x+2, y+10); printf("l                                       l");
-    gotoxy(x+2, y+11); printf("l                                       l");
-    gotoxy(x+2, y+12); printf("l                                       l");
-    gotoxy(x+2, y+13); printf("l                                       l");
-    gotoxy(x+2, y+14); printf("l                                       l");
-    gotoxy(x+2, y+15); printf("l                                       l");
-    gotoxy(x+2, y+16); printf("l                                       l");
+    gotoxy(x+2, y+5); LINE;
+    gotoxy(x+2, y+6); LINE;
+    gotoxy(x+2, y+7); LINE;
+    gotoxy(x+2, y+8); LINE;
+    gotoxy(x+2, y+9); LINE;
+    gotoxy(x+2, y+10); LINE;
+    gotoxy(x+2, y+11); LINE;
+    gotoxy(x+2, y+12); LINE;
+    gotoxy(x+2, y+13); LINE;
+    gotoxy(x+2, y+14); LINE;
+    gotoxy(x+2, y+15); LINE;
+    gotoxy(x+2, y+16); LINE;
 }
 
 void map_chapter4_pp(void)                               //4과퀴즈 배경화면
